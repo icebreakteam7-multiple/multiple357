@@ -6,7 +6,7 @@ var userNumber = prompt("숫자를 입력하세요.");
 var displayArea = document.querySelector("#result");
 
 if (userNumber != null){
-  if(userNumber % 3 === 0){
+  if(userNumber % 5 === 0){
     displayArea.innerHTML = userNumber + "은 5의 배수입니다.";
   }
   else{
